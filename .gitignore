@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+.env
+.env.*
+exports/
+orders/
+out/
+*.pdf
+assets/recordings/
+*.m4a
+*.mp3
+*.wav

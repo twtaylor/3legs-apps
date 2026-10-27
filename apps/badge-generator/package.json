@@ -1,0 +1,26 @@
+{
+  "name": "badge-generator",
+  "version": "1.0.0",
+  "description": "Generate PDF badges from consolidated guest list for Avery 5390 card stock",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "generate": "npm run build && npm start"
+  },
+  "keywords": ["badges", "pdf", "avery", "5390"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/pdfkit": "^0.13.0",
+    "csv-parse": "^5.5.0",
+    "pdfkit": "^0.15.0"
+  }
+}
+
